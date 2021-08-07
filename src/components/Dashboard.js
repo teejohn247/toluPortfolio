@@ -194,7 +194,7 @@ const Dashboard = () => {
                     <h6 className="wb" style={{marginTop: '20%'}}>REACT, TYPESCRIPT, REDUX, SOCKET.IO</h6>
                     <h1>Mr Ideal Nigeria</h1>
                     <h6>FRONTEND DEVELOPMENT</h6>
-                    <p>This is a voting app that also has some social media app features such as post like, comments etc. This app was built with React Js, TypeScript, Redux and socket.io</p>
+                    <p style={{padding:"20px"}}>This is a voting app that also has some social media app features such as post like, comments etc.</p>
                     <a href="https://github.com/1024concepts/frontend-pageant">github repository here</a> 
                     {/* <a href="https://femope.com/" className="last" style={{width: '50%'}}>Visit Website</a> */}
                   </div>
@@ -231,7 +231,7 @@ const Dashboard = () => {
                 </div>
               </div>
 
-              {/* <div className="carousel-item ">
+              <div className="carousel-item ">
                 <div className="row">
                   <div className="col-md-7" style={{marginTop: '10%'}}>
                     <div className="md-macbook-pro md-glare ">
@@ -254,13 +254,45 @@ const Dashboard = () => {
                     <h1>MUSIC STREAMING APPLICATION</h1>
                     <h6>APPLICATION</h6>
                     <p>A Full Stack Streaming app built with React Js, Node Js, Mongo DB, GridFs</p>
-                    <a href="https://github.com/teejohn247/Stream-Music">github repository here</a> 
+                    {/* <a href="https://github.com/teejohn247/Stream-Music">github repository here</a>  */}
                     <br /><br />
                   </div>
                 </div>
-              </div> */}
+              </div>
 
+              
+              <div className="carousel-item ">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/KD.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>Node Js, Mongo DB, GridFs</h6>
+                    <h1>MUSIC STREAMING APPLICATION BACKEND</h1>
+                    <h6>APPLICATION</h6>
+                    <p>A Backend Streaming app built with Node Js, Mongo DB, GridFs</p>
+                    <a href="https://github.com/teejohn247/AudioStreamingEndpoints" className="last" style={{width: '50%'}}>GitHub Repo</a>
+                    <a href="https://documenter.getpostman.com/view/7627645/TVmFkLZr" className="last" style={{width: '50%'}}>Api Documentation</a> 
 
+                    <br /><br />
+                  </div>
+                </div>
+              </div>
+
+{/* 
               <div className="carousel-item">
                 <div className="row">
                   <div className="col-md-7" style={{marginTop: '10%'}}>
@@ -289,7 +321,7 @@ const Dashboard = () => {
                     <a href="https://documenter.getpostman.com/view/7627645/TVmFkLZr" className="last" style={{width: '50%'}}>Api Documentation</a>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
 
               <div className="carousel-item">
@@ -333,7 +365,7 @@ const Dashboard = () => {
                           <div className="tab-featured-image ">
                             <div className="tab-content">
                               <div className="tab-pane  in active" id="tab1">
-                                <img src="images/PM.jpg" />
+                                <img src="images/Devbook.jpg" />
                               </div>
                             </div>
                           </div>
