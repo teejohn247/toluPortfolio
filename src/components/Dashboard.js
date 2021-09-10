@@ -39,7 +39,7 @@ const Dashboard = () => {
           <div className="col-sm-6">
             <div className="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
               <div className="img-border"  style={{"border":"none"}}>
-                <img src="images/tolu_img.jpg" alt className="img-fluid" style={{"height": "400px",
+                <img src="images/me.jpg" alt className="img-fluid" style={{"height": "400px",
                 "background": "black", 
                 "object-fit": "contain",
                 "background-position": "10px 10px",
@@ -241,6 +241,47 @@ const Dashboard = () => {
                           <div className="tab-featured-image ">
                             <div className="tab-content">
                               <div className="tab-pane  in active" id="tab1">
+                                <img src="images/pos.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>PHP, JQuery, Ajax</h6>
+                    <h1>Point of Sale Software</h1>
+                    <h6>APPLICATION</h6>
+                    
+                    <p>A Full Stack point of sale system Streaming app built with PHP, JQuery, Ajax with features that includes
+                     Electronic receipts
+                     Discounts and issue refunds
+                     Recorded sales even when offline
+                     Connect a receipt printer, barcode scanner
+                     
+                    </p>
+                    <a className="last" href="https://beginner.empl-dev.site/login/">View Website</a> 
+                    <br/>
+                    To test the app use the credential below
+                    <p style={{color:"#0CAA93"}}>UserName: beginner@mailinator.com
+                      Password:testtest
+                    </p>
+                    <br /><br />
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item ">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
                                 <img src="images/musicc.jpg" />
                               </div>
                             </div>
@@ -284,7 +325,7 @@ const Dashboard = () => {
                     <h1>MUSIC STREAMING APPLICATION BACKEND</h1>
                     <h6>APPLICATION</h6>
                     <p>A Backend Streaming app built with Node Js, Mongo DB, GridFs</p>
-                    <a href="https://github.com/teejohn247/AudioStreamingEndpoints" className="last" style={{width: '50%'}}>GitHub Repo</a>
+                    {/* <a href="https://github.com/teejohn247/AudioStreamingEndpoints" className="last" style={{width: '50%'}}>GitHub Repo</a> */}
                     <a href="https://documenter.getpostman.com/view/7627645/TVmFkLZr" className="last" style={{width: '50%'}}>Api Documentation</a> 
 
                     <br /><br />
@@ -347,7 +388,7 @@ const Dashboard = () => {
                     <h1>PORTFOLIO API</h1>
                     <h6>API DEVELOPMENT</h6>
                     <p>This api was built with NodeJs,Express,MongoDB as the database </p>
-                    <a href="https://github.com/teejohn247/portfolioBackend">github repository here</a> <br />
+                    {/* <a href="https://github.com/teejohn247/portfolioBackend">github repository here</a> <br /> */}
                     <br />
                     <a href="https://documenter.getpostman.com/view/7627645/TzCJgAS3" className="last" style={{width: '50%'}}>Api Documentation</a>
                   </div>
@@ -378,7 +419,7 @@ const Dashboard = () => {
                     <h1>SOCIAL MEDIA APP ENDPOINTS</h1>
                     <h6>API DEVELOPMENT</h6>
                     <p>This api was built with NodeJs,Express, socket.io, MongoDB as the database </p>
-                    <a href="https://github.com/teejohn247/devbook-backend">github repository here</a> <br />
+                    {/* <a href="https://github.com/teejohn247/devbook-backend">github repository here</a> <br /> */}
                     <br />
                     <a href="https://documenter.getpostman.com/view/7627645/TzseKScg" className="last" style={{width: '50%'}}>Api Documentation</a>
                   </div>
