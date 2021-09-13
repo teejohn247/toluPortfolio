@@ -1037,7 +1037,7 @@ const Dashboard = () => {
                     <h6>WEB DESIGN</h6>
                     <p>Lydia Bekes is a fashion designing company that specializes in producing africa attires and english dresses for women.
                       This site was built with WordPress,PHP,HTML,CSS</p>
-                    {/* <a href="http://www.jdrecycling17.com/" className="last" style={{width: '50%'}}>Visit Website</a> */}
+                    <a href="http://www.lydiabekes.com/" className="last" style={{width: '50%'}}>Visit Website</a>
                   </div>
                 </div>
               </div>
