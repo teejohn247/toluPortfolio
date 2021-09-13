@@ -1023,6 +1023,35 @@ const Dashboard = () => {
                           <div className="tab-featured-image ">
                             <div className="tab-content">
                               <div className="tab-pane  in active" id="tab1">
+                                <img src="images/lydia.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
+                    <h1>LYDIA BEKES FASHION OUTFIT</h1>
+                    <h6>WEB DESIGN</h6>
+                    <p>Lydia Bekes is a fashion designing company that specializes in producing africa attires and english dresses for women.
+                      This site was built with WordPress,PHP,HTML,CSS</p>
+                    {/* <a href="http://www.jdrecycling17.com/" className="last" style={{width: '50%'}}>Visit Website</a> */}
+                  </div>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
                                 <img src="images/JD.jpg" />
                               </div>
                             </div>
