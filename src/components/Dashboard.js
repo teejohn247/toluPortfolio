@@ -196,7 +196,7 @@ const Dashboard = () => {
                     <h6>FRONTEND DEVELOPMENT</h6>
                     <p style={{padding:"20px"}}>This is a voting app that also has some social media app features such as post like, comments etc.</p>
                     <a href="https://github.com/1024concepts/frontend-pageant">github repository here</a> 
-                    {/* <a href="https://femope.com/" className="last" style={{width: '50%'}}>Visit Website</a> */}
+                     <a href="https://pageant.africa/" className="last" style={{width: '50%'}}>Visit Website</a> 
                   </div>
                 </div>
               </div>
