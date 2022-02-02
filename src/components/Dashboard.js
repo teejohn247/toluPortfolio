@@ -395,35 +395,35 @@ const Dashboard = () => {
               </div>
 
               
-//               <div className="carousel-item">
-//                 <div className="row">
-//                   <div className="col-md-7" style={{marginTop: '10%'}}>
-//                     <div className="md-macbook-pro md-glare ">
-//                       <div className="md-lid">
-//                         <div className="md-camera " />
-//                         <div className="md-screen ">
-//                           <div className="tab-featured-image ">
-//                             <div className="tab-content">
-//                               <div className="tab-pane  in active" id="tab1">
-//                                 <img src="images/Devbook.jpg" />
-//                               </div>
-//                             </div>
-//                           </div>
-//                         </div>
-//                       </div>
-//                     </div>
-//                   </div>
-//                   <div className="col-md-5" style={{marginTop: '10%'}}>
-//                     <h6 className="wb" style={{marginTop: '20%'}}>NodeJs, Express, socket.io, MongoDB</h6>
-//                     <h1>SOCIAL MEDIA APP ENDPOINTS</h1>
-//                     <h6>API DEVELOPMENT</h6>
-//                     <p>This api was built with NodeJs,Express, socket.io, MongoDB as the database </p>
-//                     {/* <a href="https://github.com/teejohn247/devbook-backend">github repository here</a> <br /> */}
-//                     <br />
-//                     <a href="https://documenter.getpostman.com/view/7627645/TzseKScg" className="last" style={{width: '50%'}}>Api Documentation</a>
-//                   </div>
-//                 </div>
-//               </div>
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/Devbook.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>NodeJs, Express, socket.io, MongoDB</h6>
+                    <h1>SOCIAL MEDIA APP ENDPOINTS</h1>
+                    <h6>API DEVELOPMENT</h6>
+                    <p>This api was built with NodeJs,Express, socket.io, MongoDB as the database </p>
+                    {/* <a href="https://github.com/teejohn247/devbook-backend">github repository here</a> <br /> */}
+                    <br />
+                    <a href="https://documenter.getpostman.com/view/7627645/TzseKScg" className="last" style={{width: '50%'}}>Api Documentation</a>
+                  </div>
+                </div>
+              </div>
 
 
               {/* <div className="carousel-item">
