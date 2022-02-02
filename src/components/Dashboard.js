@@ -39,7 +39,7 @@ const Dashboard = () => {
           <div className="col-sm-6">
             <div className="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
               <div className="img-border"  style={{"border":"none"}}>
-                <img src="images/me.jpg" alt className="img-fluid" style={{"height": "400px",
+                <img src="https://drive.google.com/file/d/1sntaZC97u6EIdWPCYxuw5wViTRYW6QTV/view?usp=sharing" alt className="img-fluid" style={{"height": "400px",
                 "background": "black", 
                 "object-fit": "contain",
                 "background-position": "10px 10px",
