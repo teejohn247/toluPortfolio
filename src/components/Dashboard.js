@@ -162,13 +162,823 @@ const Dashboard = () => {
 
 
 
-  
+
 <section className="bg2">
     <div className="ver">
       <div className="container text-center ">
         <div className="row ">
           <div className="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
             <h3>Recent Programming Projects</h3>
+          </div>
+          <div id="myCarouse" className="carousel slide w-100" data-ride="carousel" style={{marginTop: '-100px'}}>
+            <div className="carousel-inner" role="listbox">
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/femopesite.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>HTML,CSS,JavaScript,PHP and MySQL</h6>
+                    <h1>FEMOPE LIMITED</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>www.femope.com is a website built with  HTML,CSS,JavaScript,PHP and MySQL</p>
+                    <a href="https://femope.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item ">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/wildfire.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE</h6>
+                    <h1>WILD FIRE APPLICATION</h1>
+                    <h6>APPLICATION</h6>
+                    <p>This is a React app to track wildfires and plot them on a Google map.</p>
+                    <a href="https://github.com/teejohn247/wildFire-App">github repository here</a> 
+                    <br /><br />
+                    <a href="https://wild-fire-app.herokuapp.com/" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+               <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/glimswave.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE</h6>
+                    <h1>GLIMSWAVE DIGITAL CURRENCY EXCHANGE</h1>
+                    <h6>APPLICATION</h6>
+                    <p>An app used to exchange Bitcoin and other digital currencies. Built with javascript</p>
+                    {/* <a href="https://github.com/teejohn247/Stream-Music">github repository here</a>  */}
+                    <br /><br />
+                    <a href="https://www.glimswave.com" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> 
+
+
+               <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/seedilium.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>Application</h6>
+                    <h1>Seedilium Investment App USA</h1>
+                    <h6>APP DEVELOPMENT</h6>
+                    <p>An American hybrid exchange and investment platform. built with React Js, TypeScript</p>
+                    {/* <a href="https://github.com/teejohn247/AudioStreamingEndpoints">github repository here</a> <br /> */}
+                    <br />
+                    <a href="https://seedilium.com" className="last" style={{width: '50%'}}>Visit Here</a>
+                  </div>
+                </div>
+              </div> 
+
+
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/flexiphere.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE</h6>
+                    <h1>FLEXIPHERE INVESTMENT APP</h1>
+                    <h6>APPLICATION</h6>
+                    <p>An exchange and investment platform. built with React Js, TypeScript</p>
+                    {/* <a href="https://github.com/teejohn247/dev-connector">github repository here</a>  */}
+                    <br /><br />
+                    <a href="https://felixphere.herokuapp.com/" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit App</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="carousel-item active">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/zicsaloma.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>Portfolio</h6>
+                    <h1>ZIC ALOMA WEBSITE</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    {/* <p>This is an ecommerce website built with WordPress,PHP</p> */}
+                    <a href="http://www.isaacaloma.com" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/immunicon.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE</h6>
+                    <h1>Immunicon </h1>
+                    <h6>APPLICATION</h6>
+                    <p>An exchange and investment platform. built with React Js, TypeScript</p>
+                    {/* <a href="https://github.com/teejohn247/dev-connector">github repository here</a>  */}
+                    <br /><br />
+                    <a href="https://immunicon.herokuapp.com/" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit App</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/EMI_WEB.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>NGO Website</h6>
+                    <h1>EXCELLENT MIND INITIATIVE</h1>
+                    {/* <h6>NAC SUPPORT UK</h6> */}
+                    <p>A Non-profit organisation website.Built with HTML,CSS, JAVASCRIPT </p>
+                    {/* <a href="https://github.com/teejohn247/Auto-Mart-Website">github repository here</a> <br /> */}
+                    <br />
+                    <a href="https://emi.org.ng/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/Hp.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>Hepatitis B LiveTest</h6>
+                    <h1>HepB LiveTest Australia</h1>
+                    {/* <h6>NAC SUPPORT UK</h6> */}
+                    <p>HepB LiveTest is a diagnostic tool for hepatitis B virus (HBV) powered by machine learning, and designed as a proof of concept for clinical prediction of a patient hepatitis B virus (HBV) infection status in real- time.
+                    </p>
+                    {/* <a href="https://github.com/teejohn247/Auto-Mart-Website">github repository here</a> <br /> */}
+                    <br />
+                    <a href="https://hepblivetest.app" className="last" style={{width: '50%'}}>Visit App</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/nac.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>Company Website</h6>
+                    <h1>NAC SUPPORT UK</h1>
+                    {/* <h6>NAC SUPPORT UK</h6> */}
+                    <p>A caregiving website for a British company. </p>
+                    {/* <a href="https://github.com/teejohn247/Auto-Mart-Website">github repository here</a> <br /> */}
+                    <br />
+                    <a href="https://nacsupport.co.uk/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/easy.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
+                    <h1>EASYPROPERTY</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is an real estate listing website built with WordPress,PHP,HTML,CSS,JavaScript</p>
+                    <a href="https://www.easypropertyng.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/lydia.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
+                    <h1>LYDIA BEKES FASHION OUTFIT</h1>
+                    <h6>WEB DESIGN</h6>
+                    <p>Lydia Bekes is a fashion designing company that specializes in producing africa attires and english dresses for women.
+                      This site was built with WordPress,PHP,HTML,CSS</p>
+                    <a href="http://www.lydiabekes.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/JDR.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
+                    <h1>JDRECYCLING</h1>
+                    <h6>WEB DESIGN</h6>
+                    <p>JD Recycling is an environment and human caring company that specializes in converting Vehicles’ Used TIRES to furniture, interior decor and playground items.
+                      This site was built with WordPress,PHP,HTML,CSS</p>
+                  </div>
+                </div>
+              </div> */}
+
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/water.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
+                    <h1>INFINITY WATER</h1>
+                    <h6>WEB DESIGN</h6>
+                    <p>Infinity water is a mineral with 8.8ph level which is an exclusive luxury premium brand that will be filtered and purified 7 times as against the normal five times before bottled.
+                      This site was built with WordPress,PHP,HTML,CSS</p>
+                    <a href="http://www.infinitywater.com.ng/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/heydensite.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
+                    <h1>HEYDEN PETROLEUM</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is a website built with  HTML,CSS,JavaScript</p>
+                    <a href="https://teejohn247.github.io/Frontend/factory.w3itexperts.com/xhtml/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/honey.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP</h6>
+                    <h1>HONEYTREAT LIMITED</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is a website built with WordPress,PHP</p>
+                    <a href="http://www.honeytreatltd.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="carousel-item">
+                <div className="row">
+                   <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                                   
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/emi.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
+                    <h1>EXCELLENT MINDS INITIATIVES</h1>
+                    <h6>REGISTRATION PORTAL</h6>
+                    <p>This is a portal built with  HTML,CSS,JavaScript and JQuery for the frontend while PHP and MySQL were used for the backend</p>
+                    <a href="https://www.emi.org.ng/" className="last" style={{width: '50%'}}>Visit Portal</a>
+                  </div>
+                </div>
+              </div>  */}
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/naomiabel.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
+                    <h1>NAOMI ABEL DESIGNS</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is an e-commerce website built with WordPress,PHP</p>
+                    <a href="http://www.naomiabeldesigns.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/hta.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
+                    <h1>HONEYTREAT ACADEMY</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is a website built with JavaScript</p>
+                    <a href="http://www.honeytreatacademy.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12" style={{width: '200%'}}>
+            <a className="carousel-control-prev text-dark" href="#myCarouse" role="button" data-slide="prev">
+              <span className="fa fa-chevron-left text-white" aria-hidden="true" style={{width: '200%'}} />
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next text-dark" href="#myCarouse" role="button" data-slide="next">
+              <span className="fa fa-chevron-right text-white" aria-hidden="true" />
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  {/*
+  ===================
+     SKILLS
+  ===================
+  */}
+  <section className="mh-skills" id="mh-skills">
+    <div className="home-v-img">
+      <div className="container">
+        <div className="row section-separator">
+          <div className="section-title text-center col-sm-12">
+            {/*<h2>Skills</h2>*/}
+          </div>
+          <div className="col-sm-12 col-md-6">
+            <div className="mh-skills-inner">
+              <div className="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                <h3>Technical Skills</h3>
+                <div className="each-skills">
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">Javascript</div>
+                        <div className="percentagem-num">86%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '86%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">React Js and Redux</div>
+                        <div className="percentagem-num">86%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '86%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">HTML</div>
+                        <div className="percentagem-num">100%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '100%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">CSS</div>
+                        <div className="percentagem-num">80%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '80%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">BOOTSTRAP</div>
+                        <div className="percentagem-num">85%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '85%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">WORDPRESS</div>
+                        <div className="percentagem-num">85%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '85%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">PHP</div>
+                        <div className="percentagem-num">50%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '50%'}} />
+                      </div>
+                    </div>
+                  </div>                                    
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">NODE JS</div>
+                        <div className="percentagem-num">75%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '75%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">MONGO DB</div>
+                        <div className="percentagem-num">80%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '80%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">postgreSQL</div>
+                        <div className="percentagem-num">80%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '80%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">MySQL</div>
+                        <div className="percentagem-num">80%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '80%'}} />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="candidatos">
+                    <div className="parcial">
+                      <div className="info">
+                        <div className="nome">PHOTOSHOP</div>
+                        <div className="percentagem-num">80%</div>
+                      </div>
+                      <div className="progressBar">
+                        <div className="percentagem" style={{width: '80%'}} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-12 col-md-6">
+            <div className="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+              <h3>Professional Skills</h3>
+              <ul className="mh-professional-progress">
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={95} />
+                  <div className="pr-skill-name">Communication</div>
+                </li>
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={100} /> 
+                  <div className="pr-skill-name">Team Work</div>
+                </li>
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={86} />
+                  <div className="pr-skill-name">Project Management</div>
+                </li> 
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={80} />
+                  <div className="pr-skill-name">Creativity</div>
+                </li>
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={95} />
+                  <div className="pr-skill-name">Problem Solving</div>
+                </li>
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={80} /> 
+                  <div className="pr-skill-name">Time Management</div>
+                </li>
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={86} />
+                  <div className="pr-skill-name">Professionalism</div>
+                </li> 
+                <li>
+                  <div className="mh-progress mh-progress-circle" data-progress={80} />
+                  <div className="pr-skill-name">Accountablity</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*
+  ===================
+     EXPERIENCES
+  ===================
+  */}
+
+
+
+
+
+
+<section className="bg2">
+    <div className="ver">
+      <div className="container text-center ">
+        <div className="row ">
+          <div className="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <h3>Other Projects</h3>
           </div>
           <div id="myCarousel" className="carousel slide w-100" data-ride="carousel" style={{marginTop: '-100px'}}>
             <div className="carousel-inner" role="listbox">
@@ -592,675 +1402,6 @@ const Dashboard = () => {
   </section> 
 
   
-  {/*
-  ===================
-     SKILLS
-  ===================
-  */}
-  <section className="mh-skills" id="mh-skills">
-    <div className="home-v-img">
-      <div className="container">
-        <div className="row section-separator">
-          <div className="section-title text-center col-sm-12">
-            {/*<h2>Skills</h2>*/}
-          </div>
-          <div className="col-sm-12 col-md-6">
-            <div className="mh-skills-inner">
-              <div className="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                <h3>Technical Skills</h3>
-                <div className="each-skills">
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">Javascript</div>
-                        <div className="percentagem-num">86%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '86%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">React Js and Redux</div>
-                        <div className="percentagem-num">86%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '86%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">HTML</div>
-                        <div className="percentagem-num">100%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '100%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">CSS</div>
-                        <div className="percentagem-num">80%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '80%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">BOOTSTRAP</div>
-                        <div className="percentagem-num">85%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '85%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">WORDPRESS</div>
-                        <div className="percentagem-num">85%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '85%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">PHP</div>
-                        <div className="percentagem-num">50%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '50%'}} />
-                      </div>
-                    </div>
-                  </div>                                    
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">NODE JS</div>
-                        <div className="percentagem-num">75%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '75%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">MONGO DB</div>
-                        <div className="percentagem-num">80%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '80%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">postgreSQL</div>
-                        <div className="percentagem-num">80%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '80%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">MySQL</div>
-                        <div className="percentagem-num">80%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '80%'}} />
-                      </div>
-                    </div>
-                  </div>
-                  <div className="candidatos">
-                    <div className="parcial">
-                      <div className="info">
-                        <div className="nome">PHOTOSHOP</div>
-                        <div className="percentagem-num">80%</div>
-                      </div>
-                      <div className="progressBar">
-                        <div className="percentagem" style={{width: '80%'}} />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-12 col-md-6">
-            <div className="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-              <h3>Professional Skills</h3>
-              <ul className="mh-professional-progress">
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={95} />
-                  <div className="pr-skill-name">Communication</div>
-                </li>
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={100} /> 
-                  <div className="pr-skill-name">Team Work</div>
-                </li>
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={86} />
-                  <div className="pr-skill-name">Project Management</div>
-                </li> 
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={80} />
-                  <div className="pr-skill-name">Creativity</div>
-                </li>
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={95} />
-                  <div className="pr-skill-name">Problem Solving</div>
-                </li>
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={80} /> 
-                  <div className="pr-skill-name">Time Management</div>
-                </li>
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={86} />
-                  <div className="pr-skill-name">Professionalism</div>
-                </li> 
-                <li>
-                  <div className="mh-progress mh-progress-circle" data-progress={80} />
-                  <div className="pr-skill-name">Accountablity</div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/*
-  ===================
-     EXPERIENCES
-  ===================
-  */}
-
-
-<section className="bg2">
-    <div className="ver">
-      <div className="container text-center ">
-        <div className="row ">
-          <div className="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-            <h3>Other Projects</h3>
-          </div>
-          <div id="myCarouse" className="carousel slide w-100" data-ride="carousel" style={{marginTop: '-100px'}}>
-            <div className="carousel-inner" role="listbox">
-              <div className="carousel-item active">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/femopesite.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>HTML,CSS,JavaScript,PHP and MySQL</h6>
-                    <h1>FEMOPE LIMITED</h1>
-                    <h6>DESIGN &amp; DEVELOPMENT</h6>
-                    <p>www.femope.com is a website built with  HTML,CSS,JavaScript,PHP and MySQL</p>
-                    <a href="https://femope.com/" className="last" style={{width: '50%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="carousel-item ">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/wildfire.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE</h6>
-                    <h1>WILD FIRE APPLICATION</h1>
-                    <h6>APPLICATION</h6>
-                    <p>This is a React app to track wildfires and plot them on a Google map.</p>
-                    <a href="https://github.com/teejohn247/wildFire-App">github repository here</a> 
-                    <br /><br />
-                    <a href="https://wild-fire-app.herokuapp.com/" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div>
-
-              {/* <div className="carousel-item active">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/musicc.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE</h6>
-                    <h1>MUSIC STREAMING APPLICATION</h1>
-                    <h6>APPLICATION</h6>
-                    <p>A Full Stack Streaming app built with React Js, Node Js, Mongo DB, GridFs</p>
-                    <a href="https://github.com/teejohn247/Stream-Music">github repository here</a> 
-                    <br /><br />
-                    <a href="https://stream-app-1.herokuapp.com/" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div> */}
-
-
-              {/* <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/PM.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE ENGINEERING</h6>
-                    <h1>STREAMING API</h1>
-                    <h6>API DEVELOPMENT</h6>
-                    <p>This api was built with NodeJs,Express,Mongo DB and gridFS as database</p>
-                    <a href="https://github.com/teejohn247/AudioStreamingEndpoints">github repository here</a> <br />
-                    <br />
-                    <a href="https://documenter.getpostman.com/view/7627645/TVmFkLZr" className="last" style={{width: '50%'}}>Api Documentation</a>
-                  </div>
-                </div>
-              </div> */}
-
-{/* 
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/dev.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE</h6>
-                    <h1>DEV CONNECTOR</h1>
-                    <h6>APPLICATION</h6>
-                    <p>This application was built with ReactJS for the frontend and NodeJs,Express and MongoDB for the backend.
-                    </p>
-                    <a href="https://github.com/teejohn247/dev-connector">github repository here</a> 
-                    <br /><br />
-                    <a href="https://immense-ocean-50012.herokuapp.com/" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div> */}
-              {/* <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/api.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>SOFTWARE ENGINEERING</h6>
-                    <h1>ECOMMERCE API</h1>
-                    <h6>API DEVELOPMENT</h6>
-                    <p>This api was built with NodeJs,Express,Mocha and Chai(for testing),postgreSQL as the database and integrated with
-                      Travis CI for continous integration </p>
-                    <a href="https://github.com/teejohn247/Auto-Mart-Website">github repository here</a> <br />
-                    <br />
-                    <a href="https://automart-webapp.herokuapp.com/automart" className="last" style={{width: '50%'}}>Api Documentation</a>
-                  </div>
-                </div>
-              </div> */}
-              {/* <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/easy.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
-                    <h1>EASYPROPERTY</h1>
-                    <h6>DESIGN &amp; DEVELOPMENT</h6>
-                    <p>This is an real estate listing website built with WordPress,PHP,HTML,CSS,JavaScript</p>
-                    <a href="https://www.easypropertyng.com/" className="last" style={{width: '50%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div> */}
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          {/* content goes here */}                
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/lydia.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
-                    <h1>LYDIA BEKES FASHION OUTFIT</h1>
-                    <h6>WEB DESIGN</h6>
-                    <p>Lydia Bekes is a fashion designing company that specializes in producing africa attires and english dresses for women.
-                      This site was built with WordPress,PHP,HTML,CSS</p>
-                    <a href="http://www.lydiabekes.com/" className="last" style={{width: '50%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          {/* content goes here */}                
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/JD.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
-                    <h1>JDRECYCLING</h1>
-                    <h6>WEB DESIGN</h6>
-                    <p>JD Recycling is an environment and human caring company that specializes in converting Vehicles’ Used TIRES to furniture, interior decor and playground items.
-                      This site was built with WordPress,PHP,HTML,CSS</p>
-                    {/* <a href="http://www.jdrecycling17.com/" className="last" style={{width: '50%'}}>Visit Website</a> */}
-                  </div>
-                </div>
-              </div>
-
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          {/* content goes here */}                
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/water.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
-                    <h1>INFINITY WATER</h1>
-                    <h6>WEB DESIGN</h6>
-                    <p>Infinity water is a mineral with 8.8ph level which is an exclusive luxury premium brand that will be filtered and purified 7 times as against the normal five times before bottled.
-                      This site was built with WordPress,PHP,HTML,CSS</p>
-                    <a href="http://www.infinitywater.com.ng/" className="last" style={{width: '50%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div>
-              {/* <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/heydensite.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
-                    <h1>HEYDEN PETROLEUM</h1>
-                    <h6>DESIGN &amp; DEVELOPMENT</h6>
-                    <p>This is a website built with  HTML,CSS,JavaScript</p>
-                    <a href="https://teejohn247.github.io/Frontend/factory.w3itexperts.com/xhtml/" className="last" style={{width: '50%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div> */}
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          {/* content goes here */}                
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/honey.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP</h6>
-                    <h1>HONEYTREAT LIMITED</h1>
-                    <h6>DESIGN &amp; DEVELOPMENT</h6>
-                    <p>This is a website built with WordPress,PHP</p>
-                    <a href="http://www.honeytreatltd.com/" className="last" style={{width: '50%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div>
-              {/* <div className="carousel-item">
-                <div className="row">
-                   <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                                   
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/emi.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
-                    <h1>EXCELLENT MINDS INITIATIVES</h1>
-                    <h6>REGISTRATION PORTAL</h6>
-                    <p>This is a portal built with  HTML,CSS,JavaScript and JQuery for the frontend while PHP and MySQL were used for the backend</p>
-                    <a href="https://www.emi.org.ng/" className="last" style={{width: '50%'}}>Visit Portal</a>
-                  </div>
-                </div>
-              </div>  */}
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/naomiabel.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
-                    <h1>NAOMI ABEL DESIGNS</h1>
-                    <h6>DESIGN &amp; DEVELOPMENT</h6>
-                    <p>This is an e-commerce website built with WordPress,PHP</p>
-                    <a href="http://www.naomiabeldesigns.com/" className="last" style={{width: '50%'}}>Visit Website</a>
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col-md-7" style={{marginTop: '10%'}}>
-                    <div className="md-macbook-pro md-glare ">
-                      <div className="md-lid">
-                        <div className="md-camera " />
-                        <div className="md-screen ">
-                          {/* content goes here */}                
-                          <div className="tab-featured-image ">
-                            <div className="tab-content">
-                              <div className="tab-pane  in active" id="tab1">
-                                <img src="images/honeysite.jpg" />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
-                    <h1>HONEYTREAT ACADEMY</h1>
-                    <h6>DESIGN &amp; DEVELOPMENT</h6>
-                    <p>This is a website built with WordPress,PHP</p>
-                    {/* <a href="http://www.honeytreatacademy.com/" className="last" style={{width: '50%'}}>Visit Website</a> */}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12" style={{width: '200%'}}>
-            <a className="carousel-control-prev text-dark" href="#myCarouse" role="button" data-slide="prev">
-              <span className="fa fa-chevron-left text-white" aria-hidden="true" style={{width: '200%'}} />
-              <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next text-dark" href="#myCarouse" role="button" data-slide="next">
-              <span className="fa fa-chevron-right text-white" aria-hidden="true" />
-              <span className="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> 
-
-
-
-
-
-
 
 
 
@@ -1368,11 +1509,268 @@ const Dashboard = () => {
       </div>
     </div>
   </section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section className="bg2">
+    <div className="ver">
+      <div className="container text-center ">
+        <div className="row ">
+          <div className="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <h3>WordPress Projects</h3>
+          </div>
+          <div id="myCarous" className="carousel slide w-100" data-ride="carousel" style={{marginTop: '-100px'}}>
+            <div className="carousel-inner" role="listbox">
+            
+ 
+ 
+
+
+            
+
+              
+
+
+           
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/easy.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WEB DESIGN</h6>
+                    <h1>EASYPROPERTY</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is an real estate listing website built with WordPress,PHP,HTML,CSS,JavaScript</p>
+                    <a href="https://www.easypropertyng.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/lydia.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,HTML,CSS</h6>
+                    <h1>LYDIA BEKES FASHION OUTFIT</h1>
+                    <h6>WEB DESIGN</h6>
+                    <p>Lydia Bekes is a fashion designing company that specializes in producing africa attires and english dresses for women.
+                      This site was built with WordPress,PHP,HTML,CSS</p>
+                    <a href="http://www.lydiabekes.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div> */}
+              <div className="carousel-item ">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/JDR.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP,jQuery</h6>
+                    <h1>JDRECYCLING</h1>
+                    <h6>WEB DESIGN</h6>
+                    <p>JD Recycling is an environment and human caring company that specializes in converting Vehicles’ Used TIRES to furniture, interior decor and playground items.
+                      This site was built with WordPress,PHP,jQuery</p>
+                    {/* <a href="http://www.jdrecycling17.com/" className="last" style={{width: '50%'}}>Visit Website</a> */}
+                  </div>
+                </div>
+              </div>
+
+           
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/honey.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP</h6>
+                    <h1>HONEYTREAT LIMITED</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is a website built with WordPress,PHP</p>
+                    <a href="http://www.honeytreatltd.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/chigozie.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP, JQuery</h6>
+                    <h1>REAL ESTATE LISTINGS</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is an ecommerce website built with WordPress,PHP</p>
+                    <a href="https://chigoziezeandpartners.com/" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="carousel-item active">
+                <div className="row">
+                  <div className="col-md-7 col-sm-12" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          {/* content goes here */}                
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/princemega.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5 col-sm-12" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>WordPress,PHP, JQuery</h6>
+                    <h1>PRINCE MEGA STORE</h1>
+                    <h6>DESIGN &amp; DEVELOPMENT</h6>
+                    <p>This is an ecommerce website built with WordPress,PHP</p>
+                    <a href="https://princemega.com/market" className="last" style={{width: '50%'}}>Visit Website</a>
+                  </div>
+                </div>
+              </div>
+
+
+              
+            
+           
+           
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12" style={{width: '200%'}}>
+            <a className="carousel-control-prev text-dark" href="#myCarous" role="button" data-slide="prev">
+              <span className="fa fa-chevron-left text-white" aria-hidden="true" style={{width: '200%'}} />
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next text-dark" href="#myCarous" role="button" data-slide="next">
+              <span className="fa fa-chevron-right text-white" aria-hidden="true" />
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {/*
   ===================
      PORTFOLIO
   ===================
   */}
+
+
   <section className="mh-portfolio" id="mh-portfolio">
     <div className="container">
       <div className="row section-separator">
