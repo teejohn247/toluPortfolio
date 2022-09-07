@@ -973,6 +973,193 @@ const Dashboard = () => {
 
 
 
+
+
+
+<section className="bg2">
+    <div className="ver">
+      <div className="container text-center ">
+        <div className="row ">
+          <div className="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+            <h3>UI/UX Projects</h3>
+          </div>
+          <div id="my" className="carousel slide w-100" data-ride="carousel" style={{marginTop: '-100px'}}>
+            <div className="carousel-inner" role="listbox">
+              <div className="carousel-item active">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/biz.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>UI/UX with Figma</h6>
+                    <h1>ZAP UI</h1>
+                    {/* <h6>FRONTEND DEVELOPMENT</h6>
+                    <p style={{padding:"20px"}}>This is a voting app that also has some social media app features such as post like, comments etc.</p>
+                     <a href="https://pageant.africa/" className="last" style={{width: '50%'}}>Visit App</a>  */}
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item ">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/appony.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h6 className="wb" style={{marginTop: '20%'}}>UI/UX</h6>
+                    <h1>Appony App</h1>
+                    {/* <h6>MUSIC PLAYER</h6>
+                    <p>This is a spotify music player clone</p> */}
+                    {/* <br /><br /> */}
+                    {/* <a href="https://lb-player.herokuapp.com/" className="last" style={{width: '70%', marginBottom: '100%'}}>Visit App</a> */}
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item ">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/ajebutter.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h1>UI/UX</h1>
+                    <h6>AJEBUTER UI</h6>
+                    
+                    {/* <p>A Full Stack point of sale system Streaming app built with PHP, JQuery, Ajax with features that includes
+                     Electronic receipts
+                     Discounts and issue refunds
+                     Recorded sales even when offline
+                     Connect a receipt printer, barcode scanner
+                     
+                    </p> */}
+                    {/* <a className="last" href="https://beginner.empl-dev.site/login/">View Website</a> 
+                    <br/>
+                    To test the app use the credential below
+                    <p style={{color:"#0CAA93"}}>UserName: beginner@mailinator.com
+                      Password:testtest
+                    </p> */}
+                    <br /><br />
+                  </div>
+                </div>
+              </div>
+
+              <div className="carousel-item ">
+                <div className="row">
+                  <div className="col-md-7" style={{marginTop: '10%'}}>
+                    <div className="md-macbook-pro md-glare ">
+                      <div className="md-lid">
+                        <div className="md-camera " />
+                        <div className="md-screen ">
+                          <div className="tab-featured-image ">
+                            <div className="tab-content">
+                              <div className="tab-pane  in active" id="tab1">
+                                <img src="images/nike.jpg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-5" style={{marginTop: '10%'}}>
+                    <h1>UI/UX</h1>
+                    <h6>Store</h6>
+                    {/* <a href="https://github.com/teejohn247/Stream-Music">github repository here</a>  */}
+                    <br /><br />
+                  </div>
+                </div>
+              </div>
+
+      
+          
+        
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12" style={{width: '200%'}}>
+            <a className="carousel-control-prev text-dark" href="#my" role="button" data-slide="prev">
+              <span className="fa fa-chevron-left text-white" aria-hidden="true" style={{width: '200%'}} />
+              <span className="sr-only">Previous</span>
+            </a>
+            <a className="carousel-control-next text-dark" href="#my" role="button" data-slide="next">
+              <span className="fa fa-chevron-right text-white" aria-hidden="true" />
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section className="bg2">
     <div className="ver">
       <div className="container text-center ">
