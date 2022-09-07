@@ -1061,8 +1061,9 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h1>UI/UX</h1>
-                    <h6>AJEBUTER UI</h6>
+                  <h6 className="wb" style={{marginTop: '20%'}}>UI/UX</h6>
+
+                    <h1>AJEBUTER UI</h1>
                     
                     {/* <p>A Full Stack point of sale system Streaming app built with PHP, JQuery, Ajax with features that includes
                      Electronic receipts
@@ -1101,8 +1102,9 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="col-md-5" style={{marginTop: '10%'}}>
-                    <h1>UI/UX</h1>
-                    <h6>Store</h6>
+                  <h6 className="wb" style={{marginTop: '20%'}}>UI/UX</h6>
+
+                    <h1>Store</h1>
                     {/* <a href="https://github.com/teejohn247/Stream-Music">github repository here</a>  */}
                     <br /><br />
                   </div>
@@ -1165,7 +1167,7 @@ const Dashboard = () => {
       <div className="container text-center ">
         <div className="row ">
           <div className="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-            <h3>Other Projects</h3>
+            <h3>Other Web Projects</h3>
           </div>
           <div id="myCarousel" className="carousel slide w-100" data-ride="carousel" style={{marginTop: '-100px'}}>
             <div className="carousel-inner" role="listbox">
