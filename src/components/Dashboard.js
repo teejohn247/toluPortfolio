@@ -24,7 +24,7 @@ const Dashboard = () => {
               <h4 className="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Full Stack Engineer</h4>
               <ul>
                 <li className="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i className="fa fa-envelope" /><a href="mailto:">teejohn247@gmail.com</a></li>
-                <li className="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i className="fa fa-phone" /><a href="callto:">08161582274, 08085362264</a></li>
+                <li className="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i className="fa fa-phone" /><a href="callto:">+2348161582274, +2348085362264</a></li>
                 <li className="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i className="fa fa-map-marker" /><address>13, Yemi Matanmi Street, Off
                     Egbado Road,Dalemo, Alakuko,Lagos State</address></li>
               </ul>
@@ -91,7 +91,7 @@ const Dashboard = () => {
                 <li><span>corel draw</span></li>
               </ul>
             </div>
-            <a href="https://drive.google.com/file/d/1Znox59AMn7RXaf-0DlstSSVKFsyRBSNO/view?usp=sharing" className="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" download>View & Downlaod CV <i className="fa fa-download" /></a>
+            <a href="https://tolujohnsonportfolio.herokuapp.com/assets/AJUWON.pdf" className="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" download>View & Downlaod CV <i className="fa fa-download" /></a>
           </div>
           
         </div>
